@@ -5,3 +5,4 @@ init:
 
 install:
   - brew install --cask android-commandlinetools
+  - brew install --cask android-studio
