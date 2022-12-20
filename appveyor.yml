@@ -1,0 +1,7 @@
+image:
+  - macos-monterey
+
+init:
+
+install:
+  - brew install --cask android-commandlinetools
