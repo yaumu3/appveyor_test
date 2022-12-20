@@ -4,5 +4,7 @@ image:
 init:
 
 install:
+  - brew install tree
   - brew install --cask android-commandlinetools
   - brew install --cask android-studio
+  - tree $(brew --prefix)/share/android-commandlinetools
