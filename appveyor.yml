@@ -7,4 +7,5 @@ install:
   - brew install tree
   - brew install --cask android-commandlinetools
   - brew install --cask android-studio
-  - tree $(brew --prefix)/share/android-commandlinetools
+  - tree "$(brew --prefix)/share/android-commandlinetools"
+  - tree '/Applications/Android studio.app'
